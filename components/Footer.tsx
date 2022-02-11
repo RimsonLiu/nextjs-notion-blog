@@ -26,7 +26,7 @@ export const Footer: React.FC<{
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright 2021 {config.author}</div>
+      <div className={styles.copyright}>Copyright 2022 {config.author}</div>
 
       {hasMounted ? (
         <div className={styles.settings}>
@@ -40,7 +40,7 @@ export const Footer: React.FC<{
         </div>
       ) : null}
 
-      <div className={styles.social}>
+      {/* <div className={styles.social}>
         {config.twitter && (
           <a
             className={styles.twitter}
@@ -76,7 +76,7 @@ export const Footer: React.FC<{
             <FaLinkedin />
           </a>
         )}
-      </div>
+      </div> */}
 
 
 <div className="bsz"><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></div>
