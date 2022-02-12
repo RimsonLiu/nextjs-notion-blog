@@ -26,7 +26,7 @@ export const Footer: React.FC<{
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright 2022 {config.author}</div>
+      <div className={styles.copyright}>© 2018 – 2022 {config.author}</div>
 
       {hasMounted ? (
         <div className={styles.settings}>
@@ -39,6 +39,8 @@ export const Footer: React.FC<{
           </a>
         </div>
       ) : null}
+
+      <div className={styles.copyright}>Made with 🐱Siri in Guangzhou</div>
 
     </footer>
   )
